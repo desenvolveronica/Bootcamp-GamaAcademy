@@ -18,7 +18,7 @@
     font-size: 25px;
 }
 #Software input{
-    margin-top: 10px;
+    margin-top: 15px;
     border: solid 1px #e2dfdf;
     border-radius: 20px;
     height: 30px;
@@ -28,8 +28,8 @@
 }
 #listProgramas h3{
     text-align: left;
-    padding-left: 10px;
-    margin-top: 5px;
+    padding-left: 20px;
+    margin-top: 0px;
     position: absolute;
     font-size: 18px;
     font-weight: 600;
@@ -40,7 +40,7 @@
     list-style: none;
     align-items: center; 
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 120px;
     margin-top: 20px;
 }
 #listProgramas img{

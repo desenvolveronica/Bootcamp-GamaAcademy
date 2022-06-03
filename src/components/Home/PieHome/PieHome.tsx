@@ -1,26 +1,54 @@
-import * as React from 'react';
-import "./PageHome.css";
+import React from "react";
+import { Chart } from "react-google-charts";
+import "./PieHome.css"
 
+export const data = [
+  ["Pizza", "Client"],
+  ["total de clientes", 37],
+  ["", 63],
 
-export default function Home() {
+];
+export const dataRetencao = [
+  ["Pizza", "Client"],
+  ["", 37],
+  ["", 63],
+
+];
+
+export const options = {
+  title: "Total de Clientes",
+  sliceVisibilityThreshold: 0.2 // 20%,
+};
+export const optionsRetencao = {
+  title: "Total de Clientes",
+  sliceVisibilityThreshold: 0.2 // 20%,
+};
+
+export function PieHome() {
   return (
-    
     <>
-    <div id="Home">
-
-
-
-      <div id='listProgramas'>
-        <div>
-          <h2>Agenda - Programas Habilitados</h2>
-        </div>
-        <h3>02 de junho</h3>
-        <ul id='programas'>
-          <li><img src="src\components\Pictures\Rectangle 11.png" alt="" />A cada 5 almoçoes ganhe um Sneakees!</li>
-          <li><img src="src\components\Pictures\Rectangle 19.png" alt="" />Ganhe uma fruta a sua escolha!</li>
-          <li><img src="src\components\Pictures\Rectangle 20.png" alt="" />Peça 5 sobremesas e ganhe 1 churros!</li>
-        </ul>
-      </div>
+    <h4></h4>
+    <div id='grafico'>
+    
+    <div id='chart'>
+    <Chart
+      chartType="PieChart"
+      data={dataRetencao}
+      options={optionsRetencao}
+      width={"370px"}
+      height={"354px"}
+    />
+    </div>
+     
+    <div id='chart'>
+    <Chart
+      chartType="PieChart"
+      data={dataRetencao}
+      options={optionsRetencao}
+      width={"370px"}
+      height={"354px"}
+    />
+    </div>
     </div>
     </>
   );

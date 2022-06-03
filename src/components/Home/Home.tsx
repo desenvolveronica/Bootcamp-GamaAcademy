@@ -5,6 +5,8 @@ import Picture from "../Menu/PictureRestaurant/PictureRestaurant";
 import Description from "../Menu/RestaurantDescription/RestaurantDescription";
 import SideButtons from "../Menu/SideButtons/MenuSideButtons";
 import Home from './PageHome/PageHome'
+import {PieHome} from './PieHome/PieHome'
+import "./Home.css"
 
 export default function HomePage() {
   return (
@@ -20,7 +22,12 @@ export default function HomePage() {
             <SideButtons />
           </div>
           <div>
-          <Home/>
+            <div id='spaceHome'>
+              <PieHome/>
+              <Home/>
+            </div>
+          
+        
 
           </div>
         </div>
