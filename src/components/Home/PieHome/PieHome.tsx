@@ -4,7 +4,7 @@ import "./PieHome.css"
 
 export const data = [
   ["Pizza", "Client"],
-  ["total de clientes", 37],
+  ["Total de clientes", 37],
   ["", 63],
 
 ];

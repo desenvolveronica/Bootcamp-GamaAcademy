@@ -46,10 +46,10 @@ span{
     justify-content: center;
     text-align: center;
     margin-left: 170px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 #whatsapp h4,
 #email h4{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px!important;
 }

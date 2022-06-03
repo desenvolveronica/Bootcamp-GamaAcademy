@@ -5,13 +5,10 @@
     height: 400px;
     width: 300px;
     position: relative;
-    /* background-color: red; */
     flex-direction: column;
 }
   #pieChart{
       display: flex;
-      /* background-color: red; */
-
 
 }
 #graphicHome{
@@ -34,18 +31,6 @@ h6{
 
 
 }
-#grafico #list ul{
-    list-style: none;
-    background: red;
-
-}
-#grafico ul li{
-    list-style: none;
-    margin-top: 100px;
-    background: red;
-    display: flex;
-}
-
 .pieChartContent{
     width: 250px;
     height: 250px;
@@ -72,6 +57,7 @@ text {
     height: 100px;
     width: 100px;
 }
+
 
 #reactgooglegraph-1{
     box-shadow: 0 0 15px rgba(0,0,0,0.15)!important;
